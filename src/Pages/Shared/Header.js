@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-light sticky-top">
@@ -21,15 +22,13 @@ const Header = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">
+            <Link to="/" class="nav-link active" aria-current="page" href="#">
               Home
-            </a>
-            <a class="nav-link" href="#">
-              Features
-            </a>
-            <a class="nav-link" href="#">
-              Pricing
-            </a>
+            </Link>
+            <Link to="/about" class="nav-link" href="#">
+              About
+            </Link>
+
             <a class="nav-link disabled">Disabled</a>
           </div>
         </div>

@@ -3,10 +3,10 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          Navbar
+        <a class="navbar-brand fs-3" href="#">
+          Kaash
         </a>
         <button
           class="navbar-toggler"

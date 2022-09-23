@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../img/Screenshot (310).png";
-import img2 from "../../img/Screenshot (311).png";
-import img3 from "../../img/Screenshot (312).png";
+import img1 from "../../img/Kaash.eu.png";
+import img2 from "../../img/Kaash.eu (1).png";
+
 const Carousel = () => {
   return (
     <div
@@ -43,14 +43,6 @@ const Carousel = () => {
         <div class="carousel-item">
           <img
             src={img2}
-            class="d-block w-100 "
-            style={{ height: "400px" }}
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src={img3}
             class="d-block w-100 "
             style={{ height: "400px" }}
             alt="..."
